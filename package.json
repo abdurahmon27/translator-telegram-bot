@@ -1,0 +1,20 @@
+{
+  "name": "translator_telegram_bot",
+  "version": "1.0.0",
+  "description": "A Telegram bot for translation",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "abdurahmon",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "express": "^4.18.2",
+    "telegraf": "^4.15.3"
+  },
+  "engines": {
+    "npm": ">=6"
+  }
+}
