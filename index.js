@@ -21,7 +21,7 @@ bot.on('text', async (ctx) => {
 
   try {
     const translation = await translateText(text, sourceLanguage, targetLanguage);
-    ctx.reply(`Translated: ${translation}`);
+    ctx.reply(`${translation}`);
   } catch (error) {
     console.error(error);
     ctx.reply('Translation failed.');
@@ -60,5 +60,5 @@ async function translateText(text, sourceLanguage, targetLanguage) {
   }
 }
 
-// Use long polling
 bot.launch();
+
