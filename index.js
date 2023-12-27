@@ -59,6 +59,6 @@ async function translateText(text, sourceLanguage, targetLanguage) {
     throw error;
   }
 }
-
+//just
 bot.launch();
 
